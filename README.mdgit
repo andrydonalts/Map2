@@ -1,0 +1,1 @@
+"# Map"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/andrydonalts/Map.gitgit push -u origin master
