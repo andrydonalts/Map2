@@ -113,16 +113,7 @@ public class MapsActivity extends FragmentActivity implements View.OnClickListen
         map.moveCamera(CameraUpdateFactory.newCameraPosition(target));
     }
 
-    /*
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        isMapReady = true;
-        map = googleMap;
-        LatLng newYork = new LatLng(40.7484, -73.9853);
-        CameraPosition target = CameraPosition.builder().target(newYork).zoom(14).build();
-        map.moveCamera(CameraUpdateFactory.newCameraPosition(target));
-    }
-    */
+
 
     @Override
     public void onClick(View view) {
